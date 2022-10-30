@@ -1,0 +1,129 @@
+/* font-family: 'Blaka Hollow',
+cursive;
+font-family: 'Cairo',
+sans-serif;
+font-family: 'IBM Plex Sans Arabic',
+sans-serif; */
+
+/* -------------- Responsive --------------------------*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 930px) {
+    .container {
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 100%;
+        }
+    .nav .container {
+        flex-direction: row-reverse;
+    }
+    .student {
+        margin-top: 62px;
+        height: calc(100vh - 200px);
+    }
+    .links {
+
+        position: absolute;
+        top: 63px;
+        left: 15%;
+        background-color: white;
+        width: 70%;
+    }
+    .links ul {
+        flex-direction: column-reverse;
+    }
+    .links>ul li {
+        width: 100%;
+        padding: 15px 0;
+        border-bottom: 1px solid black;
+    }
+    .select {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 931px and up) */
+@media only screen and (min-width: 931px) {
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 100%;
+        }
+    .nav .container {
+        position: relative;
+        flex-direction: column;
+    }
+    .student {
+        margin-top: 99px;
+        height: calc(100vh - 99px);
+    } 
+    .links>ul li {
+        padding-right: 50px;
+    }
+    .option {
+        display: none;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1080px and up) */ 
+ @media only screen and (min-width: 1080px) {
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 100%;
+        }
+    .nav .container {
+            flex-direction: row-reverse;
+        }
+    .student {
+        margin-top: 71px;
+        height: calc(100vh - 71px);
+    }
+    .option {
+        display: none;
+    }
+}
+
+/* -------------------------- Style ---------------------------- */
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.nav .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #af0003;
+    z-index: 100;
+    box-shadow: #af00035e 0px 1px 4px;
+}
+.logo{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.links>ul{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+.nav a {
+    color: #af0003;
+    text-decoration: none;
+}
+.nav a:hover,label:hover {
+    color: black;
+}
+.select {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+}
+

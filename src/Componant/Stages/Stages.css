@@ -1,0 +1,78 @@
+.stages {
+    margin-top: 150px;
+    margin-bottom: 100vh;
+}
+.stages .card .stage {
+    width: 210px;
+    font-size: 20px;
+    background-color: rgb(175 0 3 / 85%);
+    padding: 3px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.stages a {
+    color: #af0003;
+    text-decoration: none;
+}
+
+.stages .card .stage {
+    color: white;
+    float: right;
+}
+
+.stages .container .card:hover .stage {
+    background-color: #af0003;
+}
+.stages .section-btn {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.stages .section-btn button {
+    letter-spacing: 2px;
+    color: white;
+    width: 105px;
+    height: 33px;
+    padding: 5px 15px;
+    background-color: rgb(175 0 3 / 85%);
+    border: none;
+}
+.stages .section-btn button.show {
+    background-color: #af0003;
+}
+.stages .section-btn button:hover {
+    background-color: #af0003;
+    
+}
+.stages .hidden {
+    display: none;
+}
+.stages .section  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-flow: r;
+    gap: 20px;
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.stages .section li svg {
+    margin-left: 10px;
+}
+.stages .section li:hover a{
+    color: black;
+    transition: .5s;
+}
+.stages .section a{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.section li:hover {
+    cursor: normal !important ;
+}

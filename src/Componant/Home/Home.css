@@ -1,0 +1,22 @@
+.info {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -39%);
+    background: hsl(0deg 0% 100% / 50%);
+    width: 85%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info h1 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+}
+.info span {
+    color: #af0003;
+}

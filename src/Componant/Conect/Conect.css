@@ -1,0 +1,55 @@
+.conect {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.conect h1 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #af0003;
+}
+.conect img {
+    max-width: 500px;
+}
+.conect form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.conect form label {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.conect form  input {
+    min-height: 40px;
+}
+.conect form label input:active {
+    border-color: #af0003;
+}
+.conect label p {
+    width:50px;
+}
+.conect label p:hover {
+    color: #af0003;
+}
+.conect button {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color: white;
+    color: #af0003;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    margin-right: 150px;
+}
+.conect button:hover {
+    border: none;
+    background-color: #af0003;
+    color: white;
+    cursor: pointer;
+}

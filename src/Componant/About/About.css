@@ -1,0 +1,22 @@
+.about {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: #00000012;
+    padding: 25px 0;
+}
+.about .container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+}
+.about h1 {
+    align-self: center;
+    color: #af0003;
+}
+.about p {
+    letter-spacing: 3px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+.education {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.education .container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    gap: 20px;
+}
+.education .container h2 {
+    color: #af0003;
+    margin-bottom: 20px;
+}
+.education .container section {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+}
+.education .container section .card div {
+    width: 210px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(175 0 3 / 85%);
+    padding: 3px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.education .card a {
+    color: white;
+    text-decoration: none;
+}
+.education .container .card:hover div{
+    background-color: #af0003;
+}
