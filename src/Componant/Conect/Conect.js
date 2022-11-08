@@ -1,7 +1,5 @@
 import React from 'react';
 import './Conect.css';
-import Photo from '../../Images/compare.jpg';
-
 function Conect() {
 
   return(

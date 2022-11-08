@@ -25,7 +25,7 @@ const Footer = () => {
         <div className='logo'>أكادمية المنتصر</div>
         </div>
       </div>
-        <div className='developer'>Made By Mahmoud 2022</div>
+        <div className='developer'>Made By<a href='https://mahmoudhamdy-portfolio.netlify.app/'>Mahmoud Hamdy</a></div>
     </footer>
   )
 }
